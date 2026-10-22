@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: linear-gradient(to bottom,#c4593b, #40262b);
+    height: 175px;
+}
+
+header > h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 2.2em;
+    color: #eee2d8;
+    padding-top: 15px;
+    text-shadow: 1px 2px 5px #291d1d71;
+}
+
+header > p {
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #eee2d8;
+    text-shadow: 1px 2px 5px #291d1d71;
+}
+
+.navegacao {
+    display: flex inline;
+    justify-content: flex-start;
+    gap: 15px;
+    padding-left: 15px;
+}
+
+.navegacao > a {
+    text-decoration: none;
+    text-shadow: 1px 2px 5px #291d1d71;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 550;
+    color: #eee2d8;
+    padding: 8px 10px;
+    transition: background-color 0.4s ease;
+    border-radius: 10px;  
+}
+
+
+.navegacao a:link {
+    color: #eee2d8;
+}
+
+.navegacao a:visited {
+    color: #40262b;
+}
+
+.navegacao > a:hover {
+    color: #dc835a;
+    background-color: #eee2d8;
+    text-shadow: 1px 2px 5px #291d1d71;
+}
+
+.navegacao a:active {
+    color: #40262b;
+}
+
+
+body {
+    background-color: #dc835a;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudo {
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0px 0px 15px #291d1d73;
+    padding: 20px 25px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    flex: 1;
+}
+
+h2 {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: #291d1d;
+}
+
+strong {
+    font-size: 20px;
+    color: #40262b;
+}
+
+p {
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+img {
+    display: flex;
+    float: right;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px #291d1d5b;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.texto-variavel {
+    flex: 1;
+}
+
+ul li::marker{
+    color: #291d1d;
+}
+
+footer p {
+    text-align: center;
+    color: #eee2d8;
+    margin: 0 auto;
+}

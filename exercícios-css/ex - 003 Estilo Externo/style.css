@@ -1,0 +1,20 @@
+   @charset "UTF-8";
+
+        body {
+            background-color: coral;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        h1 {
+            color: cornflowerblue
+        }
+
+        h2 {
+            color: lightslategrey;
+        }
+
+        p {
+            text-align: justify;
+        }
+  
